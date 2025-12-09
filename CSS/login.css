@@ -1,0 +1,118 @@
+/* Contenidor principal del formulari d'inici de sessió */
+#main-login {
+  width: 100%;
+  max-width: 400px;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Títol del formulari d'inici de sessió */
+#main-login h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Formulari d'inici de sessió */
+#main-login form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Etiquetes del formulari */
+#main-login form label {
+  font-size: 16px;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Camps de text i contrasenya */
+#main-login form input[type="text"],
+#main-login form input[type="password"] {
+  /* width: 100%; */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Botó d'enviament del formulari */
+#main-login form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Efecte hover del botó d'enviament */
+#main-login form button:hover {
+  background-color: #218838;
+}
+
+/* Missatge d'error */
+#main-login form .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Missatge d'èxit */
+#main-login form .success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Enllaços del formulari */
+#main-login form a {
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Efecte hover dels enllaços */
+#main-login form a:hover {
+  text-decoration: underline;
+}
+
+/* Bloc per l'opció Recorda'm */
+#login_remember {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+/* Bloc per l'enllaç de registre */
+#login_register {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Paràgraf del bloc de registre */
+#login_register p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Enllaç de registre */
+#login_register a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Efecte hover de l'enllaç de registre */
+#login_register a:hover {
+  text-decoration: underline;
+}

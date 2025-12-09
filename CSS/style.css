@@ -1,0 +1,17 @@
+/* Estils globals per al lloc web
+
+Paleta de colors i fonts de text:
+- Color de fons: #f4f4f4
+- Color de text: #333 
+
+- Font: Arial, sans-serif
+
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}

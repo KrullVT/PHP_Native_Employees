@@ -1,0 +1,146 @@
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #222;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#title_dc {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#title_dc p {
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #aaa;
+  margin: 0;
+  padding: 0;
+  padding-left: 1px;
+  font-size: 0.6em;
+}
+
+#title_dc p:first-of-type {
+  padding-left: 2px;
+}
+
+#title_dc .devcon-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.devcon-link b {
+  font-weight: bold;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.devcon-link #dc_enfasis {
+  color: #ff4444;
+  transition: color 0.3s ease;
+}
+
+.devcon-link b:hover {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.devcon-link b:hover #dc_enfasis {
+  color: red;
+  transition: color 0.3s ease;
+}
+
+#title_text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#home-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home-link h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+#title_text h2 {
+  margin: 0;
+  font-size: 1em;
+  color: #ccc;
+}
+
+#title_login {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  color: #aaa;
+}
+
+#title_login .login-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+#title_login .login-link:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul .nav-link {
+  margin-left: 20px;
+}
+
+nav ul .nav-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul .nav-link a:hover,
+nav ul .nav-link.active a {
+  background-color: #444;
+}

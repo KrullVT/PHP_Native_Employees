@@ -1,0 +1,27 @@
+#main-index {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#main-index h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+#main-index p {
+  margin-bottom: 15px;
+  color: #555;
+  text-align: justify;
+}
+
+#main-index a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+#main-index a:hover {
+  text-decoration: underline;
+}
