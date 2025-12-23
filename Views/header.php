@@ -22,7 +22,7 @@
             // Si l'usuari està autenticat, mostra el seu nom i l'opció de tancar sessió
             if (isset($_SESSION['user'])) {
                 echo '<span>Benvingut, ' . htmlspecialchars($_SESSION['user']) . '!</span> ';
-                echo '<a href="' . $baseUrl . 'Views/logout.php" class="login-link">Tancar sessió</a>';
+                echo '<a href="' . $baseUrl . 'Controllers/logoutController.php" class="login-link">Tancar sessió</a>';
             } else {
                 // Si no està autenticat, mostra les opcions d'iniciar sessió o registrar-se
                 echo '<a href="' . $baseUrl . 'Views/login.php" class="login-link">Iniciar sessió</a> | <a href="' . $baseUrl . 'Views/register.php" class="login-link">Registrar-se</a>';
@@ -35,7 +35,7 @@
         <ul>
             <li class="nav-link active"><a href="<?php echo $baseUrl; ?>index.php">Inici</a></li>
             <li class="nav-link"><a href="<?php echo $baseUrl; ?>Views/users.php">Usuaris</a></li>
-            <li class="nav-link"><a href="<?php echo $baseUrl; ?>Views/employees.php">Empleats</a></li>
+            <li class="nav-link"><a href="<?php echo $baseUrl; ?>Views/employees.php">Treballadors</a></li>
             <li class="nav-link"><a href="<?php echo $baseUrl; ?>Views/departments.php">Departaments</a></li>
             <li class="nav-link"><a href="<?php echo $baseUrl; ?>Views/contact.php">Contacte</a></li>
         </ul>
